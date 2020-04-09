@@ -1,0 +1,7 @@
+docker login --username=fall14123 
+# credentials stored in ~/.docker
+
+docker images
+
+docker tag ${image_id} fall14123/${local_repo}:${tag}
+docker push fall14123/${local_repo}
